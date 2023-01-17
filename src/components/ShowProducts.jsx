@@ -118,11 +118,12 @@ const ShowProducts = () => {
 
     return (
 
-        <div className="App" id="lista">
+        <div className="App py-5" id="lista">
             <div className='container-fluid'>
                 <div className='row mt-3'>
                     <div className='col-md-4 offset-md-4'>
                         <div className='d-grid mx-auto'>
+                            <h3 className="fs-1 text-center py-3">Mi lista de productos</h3>
                             <button onClick={()=> openModal(1)} className='btn btn-dark' data-bs-toggle='modal' data-bs-target='#modalProducts'>
                                 <i className='fa-solid fa-circle-plus'></i> Añadir
                             </button>
@@ -131,7 +132,7 @@ const ShowProducts = () => {
                     </div>
                     <div className='row mt-3'>
                         <div className='col-12 col-lg-8 offset-0 offset-lg-2'>
-                            <div className='table responsive'>
+                            <div className='table-responsive'>
                                 <table className='table table-bordered'>
                                     <thead>
                                         <tr>
