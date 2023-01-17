@@ -1,7 +1,6 @@
 import {  Routes, Route, BrowserRouter } from "react-router-dom";
 import Header from "./components/section/Header";
-import Main from "./components/section/main";
-import ShowProducts from './components/ShowProducts';
+import Main from "./components/section/Main";
 
 function App() {
   return (

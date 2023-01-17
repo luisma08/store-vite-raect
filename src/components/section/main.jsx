@@ -1,15 +1,19 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import ShowProducts from "../ShowProducts";
+import Banner from "./banner";
 
 const Main = () => {
     return(
-        <BrowserRouter>
-            <Routes>
-            <Route path='/store-vite-raect/' element={<ShowProducts />}>
+        <>
+            <Banner />
+            <BrowserRouter>
+                <Routes>
+                <Route path='/store-vite-raect/' element={<ShowProducts />}>
 
-            </Route>
-            </Routes>
-      </BrowserRouter>
+                </Route>
+                </Routes>
+            </BrowserRouter>
+        </>
     );
 };
 
