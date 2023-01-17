@@ -1,4 +1,4 @@
-import ecoTec from '../../assets/img/technology+ecommerce.webp';
+import ecoTec from '../../assets/img/tecnoweb.webp';
 import tienOnline from '../../assets/img/tienda-online.webp';
 import bussTec from '../../assets/img/ecoweb.webp';
 
