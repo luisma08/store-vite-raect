@@ -21,7 +21,7 @@ const Banner = () => {
               <div className="carousel-caption d-none d-md-block bg-dark bg-opacity-50">
                 <h5 className="fs-1">Crear</h5>
                 <p>Registra tus productos en linea</p>
-                <button className="btn btn-success px-5">Empezar</button>
+                <a className="btn btn-success px-5" href='#lista'>Empezar</a>
               </div>
             </div>
             <div className="carousel-item" data-bs-interval="5000">
@@ -30,7 +30,7 @@ const Banner = () => {
               <div className="carousel-caption d-none d-md-block bg-dark bg-opacity-50">
                 <h5 className="fs-1">Editar</h5>
                 <p>Edita los campos de tus productos</p>
-                <button className="btn btn-success px-5">Empezar</button>
+                <a className="btn btn-success px-5" href='#lista'>Empezar</a>
               </div>
             </div>
             <div className="carousel-item" data-bs-interval="5000">
@@ -39,7 +39,7 @@ const Banner = () => {
               <div className="carousel-caption d-none d-md-block bg-dark bg-opacity-50">
                 <h5 className="fs-1">Eliminar</h5>
                 <p>Elimina los productos que no desees en tu lista</p>
-                <button className="btn btn-success px-5">Empezar</button>
+                <a className="btn btn-success px-5" href='#lista'>Empezar</a>
               </div>
             </div>
           </div>
