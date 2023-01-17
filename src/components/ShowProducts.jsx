@@ -10,7 +10,7 @@ import { show_alerta } from '../functions';
 const ShowProducts = () => {
 
 
-    const url = 'https://emaus.mavoagenciadigital.com/api-products/';
+    const url = 'https://emaus.mavoagenciadigital.com/api-products/index.php';
 
     const [products, setProducts] = useState([]);
     const [id, setId] = useState('');
