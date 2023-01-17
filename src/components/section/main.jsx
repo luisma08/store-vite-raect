@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import ShowProducts from "../ShowProducts";
-import Banner from "./banner";
+import Banner from "./Banner";
 
 const Main = () => {
     return(

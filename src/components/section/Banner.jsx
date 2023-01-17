@@ -1,3 +1,7 @@
+import ecoTec from '../../assets/img/technology+ecommerce.webp';
+import tienOnline from '../../assets/img/tienda-online.webp';
+import bussTec from '../../assets/img/7-Ecommerce-Technology-Trends-that-Empower-Businesses-Updated.webp';
+
 const Banner = () => {
     return(
         <section className="banner">
@@ -12,30 +16,30 @@ const Banner = () => {
           </div>
           <div className="carousel-inner">
             <div className="carousel-item active" data-bs-interval="5000">
-              <img src="" className="d-flex" alt="Imagen 1"
-                width="256" height="144" style={{width: '100%', height: '100vh', objectFit: cover}} />
+              <img src={ecoTec} className="d-flex" alt="Imagen 1"
+                width="256" height="144" style={{width: 100 + '%', height: 500 + 'px', objectFit: 'cover'}} />
               <div className="carousel-caption d-none d-md-block bg-dark bg-opacity-50">
-                <h5 className="fs-1">TECNOLOGIAS</h5>
-                <p>Encuentra lo mejor de lo mejor en tecnologia.</p>
-                <button className="btn btn-success px-5">COMPRAR</button>
+                <h5 className="fs-1">Crear</h5>
+                <p>Registra tus productos en linea</p>
+                <button className="btn btn-success px-5">Empezar</button>
               </div>
             </div>
             <div className="carousel-item" data-bs-interval="5000">
-              <img src="" className="d-flex" alt="Imagen 2" width="256" height="144"
-                style={{width: '100%', height: '100vh', objectFit: cover}} />
+              <img src={tienOnline} className="d-flex" alt="Imagen 2" width="256" height="144"
+                style={{width: 100 + '%', height: 500 + 'px', objectFit: 'cover'}} />
               <div className="carousel-caption d-none d-md-block bg-dark bg-opacity-50">
-                <h5 className="fs-1">Moda y ROPA</h5>
-                <p>Encuentra lo mejor de lo mejor en Moda y ROPA.</p>
-                <button className="btn btn-success px-5">COMPRAR</button>
+                <h5 className="fs-1">Editar</h5>
+                <p>Edita los campos de tus productos</p>
+                <button className="btn btn-success px-5">Empezar</button>
               </div>
             </div>
             <div className="carousel-item" data-bs-interval="5000">
-              <img src="" className="d-flex" alt="Imagen 3" width="256" height="144"
-                style={{width: '100%', height: '100vh', objectFit: cover}} />
+              <img src={bussTec} className="d-flex" alt="Imagen 3" width="256" height="144"
+                style={{width: 100 + '%', height: 500 + 'px', objectFit: 'cover'}} />
               <div className="carousel-caption d-none d-md-block bg-dark bg-opacity-50">
-                <h5 className="fs-1">GADGETS</h5>
-                <p>Encuentra lo mejor de lo mejor en Gadgets.</p>
-                <button className="btn btn-success px-5">COMPRAR</button>
+                <h5 className="fs-1">Eliminar</h5>
+                <p>Elimina los productos que no desees en tu lista</p>
+                <button className="btn btn-success px-5">Empezar</button>
               </div>
             </div>
           </div>
