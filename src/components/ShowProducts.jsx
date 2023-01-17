@@ -146,10 +146,10 @@ const ShowProducts = () => {
                                                 DESCRIPCION
                                             </th>
                                             <th>
-                                                DESCRIPCION
+                                                PRECIO
                                             </th>
                                             <th>
-                                                PRECIO
+                                                ACCIONES
                                             </th>
                                         </tr>
                                     </thead>
