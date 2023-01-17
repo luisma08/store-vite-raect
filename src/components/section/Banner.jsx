@@ -1,6 +1,6 @@
 import ecoTec from '../../assets/img/technology+ecommerce.webp';
 import tienOnline from '../../assets/img/tienda-online.webp';
-import bussTec from '../../assets/img/7-Ecommerce-Technology-Trends-that-Empower-Businesses-Updated.webp';
+import bussTec from '../../assets/img/ecoweb.webp';
 
 const Banner = () => {
     return(
