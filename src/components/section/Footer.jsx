@@ -35,7 +35,7 @@ const Footer = () => {
           
           <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
             
-            <h6 className="text-uppercase fw-bold">E-COMMERCE</h6>
+            <h6 className="text-uppercase fw-bold">CRUD REACT API</h6>
             <hr className="mb-4 mt-0 d-inline-block mx-auto" style={{width: 60 + 'px', backgroundColor: '#198754', height: 2 + 'px'}} />
             <p>
               SOMOS UNA COMPAÑIA QUE OFRECE PRODUCTOS DE CALIDAD AL MEJOR PRECIO.
@@ -61,7 +61,7 @@ const Footer = () => {
     
     <div className="text-center p-3" style={{backgroundColor: 'rgba(0, 0, 0, 0.2)'}}>
       © 2022 Copyright:
-      <a className="text-white" style={{ textDecoration: 'none' }}> Jorge Mayta</a>
+      <a className="text-white" style={{ textDecoration: 'none' }}> Grupo 5</a>
     </div>
     
   </footer>
